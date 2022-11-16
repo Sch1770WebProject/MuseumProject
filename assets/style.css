@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Serif', serif;
+}
+
+.page_title {
+	width: 100%;
+	padding-bottom: 5vh;
+	padding-top: 5vh;
+	background-color: #d4a276; 
+	color: white;
+}
+
+
+.content {
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+
+.line {
+	width: 100%;
+	height: 5vh;
+	background: linear-gradient(#8b5e34,#6f4518);
+	text-align: center;
+}
+
+.page_body {
+	width: 100%;
+	background-color: #ffedd8;
+	padding-bottom: 20vh;
+}
+
+.line a{
+	font-size: 40px;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.line a:hover{
+	color: #dda15e;
+}
+
+.line li{
+	display: inline;
+}
+
+.page_body_content {
+	width: 80%;
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+
+.page_body_content p{
+	font-size: 30px;
+}
+
+.page_body_content h1 {
+	position: relative;
+	left: 37px;
+}
+
+.closing_panel {
+	width: 100%;
+	height: 20vh;
+	background: linear-gradient(#8b5e34,#6f4518);
+	text-align: left;
+}
+
+.closing_panel_content {
+	width: 70%;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	left: 35px;
+	top: 35px;
+}
+
+.catalog_body {
+	width: 100%;
+	background-color: #ffedd8;
+}
+
+.exhibit_grid {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+.exhibit_grid_item {
+	width: 33.3%;
+	list-style: none;
+	padding: 15px;
+}
+
+.card {
+	padding: 15px;
+	background-color: #FFF5E9;
+}
+
+.card a {
+	text-decoration: none;
+	color: black;
+}
+
+.card img {
+	width: 80%;
+}
+
+.exhibit_page_body {
+	width: 100%;
+	background-color: #ffedd8;
+}
+
+.exhibit_page_body_content {
+	width: 100%;
+	font-size: 30px;
+}
+
+.exhibit_page_body_content_grid {
+	position: relative;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.exhibit_page_body_content_grid li {
+	width: 40%;
+	list-style: none;
+	padding: 15px;
+}
+
+.exhibit_description p{
+	font-size: 30px;
+}
+
+.exhibit_description h1 {
+	position: relative;
+	left: 35px;
+}
+
+.exhibit_photo img{
+	width: 100%;
+}
